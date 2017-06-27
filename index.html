@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    normalize.css removes cross-browser differences in defaults, e.g.,
+    differences in how form elements appear between Firefox and IE
+    See: http://necolas.github.com/normalize.css/
+  -->
+
+  <!--
+    application.css is where you put your styles
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+  <script src="/application.js"></script>
+  <script src="raphael-min.js"></script>
+  <script>
+  //  window.onload = function() {
+  //   var p = Raphael(0, 0, 400, 400);
+  //         //X Y   W    H
+  //   p.rect(0, 0, 400, 400)
+
+  //  var redRect =  p.rect(25, 25, 75, 75)
+  //    .attr({
+  //     fill : "red",
+  //     stroke : "none"
+  //    }).click(function() {
+  //      this.attr({fill : "blue"});
+  //    }).hover(function() {
+  //      this.attr({fill : "green"});
+  //    }, function() {
+  //      this.attr({fill : "red"});
+  //    });
+
+  //   p.circle(100, 100, 30)
+  //     .attr({
+  //     "stroke-width" : 10,
+  //     fill : "90-#f00-#000"
+  //    }).click(function() {
+  //     this.attr({fill : "75-#00f-#000"});
+  //      this.animate({
+  //       cx : 300,
+  //       transform : "s1.5"
+  //      }, 1000, 'elastic')
+  //      redRect.animate({y:200}, 1000)
+  //    });
+
+  //   p.rect(200, 150, 75, 75)
+  //    .attr({
+  //     fill : "yellow"
+  //    }).hover(function() {
+  //      this.animate({
+  //       fill : "green",
+  //       transform : "r180"
+  //      }, 500);
+  //    }, function() {
+  //      this.animate({
+  //       fill : "yellow",
+  //       transform : "r-180"
+  //      }, 1000)
+  //    });
+  //    p.text(70,250,"Hello World!!!")
+  //     .attr({
+  //       "font-family" : "Georgia",
+  //       "font-size" : 20
+  //     }).animate({
+  //       y : 350,
+  //       x : 100,
+  //       "font-size" : 30
+  //     }, 1200, "elastic")
+  // };
+
+   window.onload = function() {
+    var p = Raphael("paper")
+    p.rect(0, 0, 400, 400)
+   };
+
+  </script>
+  <title>Refile</title>
+</head>
+<body>
+        <div id="paper"></div>
+      <!-- <h1>Raphaël Playground</h1>
+        <div id="canvas"><svg height="480" version="1.1" width="640" xmlns="http://www.w3.org/2000/svg" style="overflow: hidden; position: relative; top: -0.90625px;"><desc style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Created with Raphaël 2.0.0</desc><defs style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></defs><rect x="0" y="0" width="640" height="480" r="10" rx="10" ry="10" fill="#ffffff" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></rect><circle cx="320" cy="240" r="60" fill="#223fa3" stroke="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); stroke-opacity: 0.5;" stroke-width="80" stroke-opacity="0.5"></circle></svg></div>
+        <div><textarea id="code">paper.circle(320, 240, 60).animate({fill: "#223fa3", stroke: "#000", "stroke-width": 80, "stroke-opacity": 0.5}, 2000);</textarea></div>
+        <div><button id="run" type="button">Run</button></div>
+        <p id="copy">Demo of <a href="http://raphaeljs.com/">Raphaël</a>—JavaScript Vector Library</p>
+ -->
+
+</body>
+</html>
